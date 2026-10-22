@@ -1,0 +1,4 @@
+# dsh-session-topnew bundle patch: mount the host plugin under its package name.
+- insert:
+    - id: dsh-session-topnew
+      name: dsh-session-topnew

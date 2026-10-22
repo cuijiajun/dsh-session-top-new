@@ -1,0 +1,13 @@
+{
+  "id": "dsh-session-topnew",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "description": "Session overview dock for the DeepSeek Harness Web GUI: N-day list, unread/running status, click-to-jump, completion chime.",
+  "engines": {
+    "dsh": ">=0.0.1"
+  },
+  "contributes": {
+    "tools": [],
+    "skills": []
+  }
+}
