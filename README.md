@@ -1,8 +1,16 @@
 # dsh-session-top-new
 
+**Session list too long to search through? The newest session always buried?**
+
 A session overview dock for the **DeepSeek Harness Web GUI**: every session's
-unread and running state at a glance, with one-click jumping and a completion
-chime.
+unread and running state in one floating panel, one click to jump to any of
+them, and a chime when one finishes — so the newest and the unread never get
+lost in a long list again.
+
+**会话列表越长越难找？最新会话总被淹没？**
+
+一个 DSH Web GUI 的会话总览悬浮栏：所有会话的未读与运行状态集中在一个小面板里，
+点一下就能跳过去，会话跑完会响一声——最新和未读的再也不会被长列表埋掉。
 
 ![Session dock panel](assets/screenshot-panel.png)
 
@@ -34,8 +42,7 @@ chime.
 
 ## 中文说明
 
-一个 DSH Web GUI 的**会话总览悬浮栏**：跨会话查看未读/运行状态，一键跳转，
-会话完成时发出提示音。
+功能一览：
 
 - 圆形按钮可**拖拽**到任意位置，窗口缩放时按比例跟随
 - 「近 N 天」可自定义（默认当天）
