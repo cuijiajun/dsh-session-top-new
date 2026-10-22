@@ -1,0 +1,6 @@
+url: https://github.com/cuijiajun/dsh-session-top-new
+name: cuijiajun/dsh-session-top-new
+category: session
+description:
+  en: Session overview dock with cross-session unread and running status, N-day history, one-click jump, and a completion chime.
+  zh: 会话总览悬浮栏：跨会话查看未读与运行状态、近 N 天历史、一键跳转，会话完成时发出提示音。

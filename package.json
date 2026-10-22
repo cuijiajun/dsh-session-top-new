@@ -1,5 +1,5 @@
 {
-  "name": "dsh-session-topnew",
+  "name": "dsh-session-top-new",
   "version": "0.1.0",
   "description": "Session overview dock for the DeepSeek Harness Web GUI: N-day session list, cross-session unread and running status, one-click jump, and a completion chime.",
   "license": "MIT",
@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cuijiajun/dsh-session-topNew.git"
+    "url": "git+https://github.com/cuijiajun/dsh-session-top-new.git"
   },
   "bugs": {
-    "url": "https://github.com/cuijiajun/dsh-session-topNew/issues"
+    "url": "https://github.com/cuijiajun/dsh-session-top-new/issues"
   },
-  "homepage": "https://github.com/cuijiajun/dsh-session-topNew#readme",
+  "homepage": "https://github.com/cuijiajun/dsh-session-top-new#readme",
   "keywords": [
     "deepseek",
     "harness",

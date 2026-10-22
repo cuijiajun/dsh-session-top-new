@@ -1,10 +1,12 @@
-# dsh-session-topnew
+# dsh-session-top-new
 
 A session overview dock for the **DeepSeek Harness Web GUI**: every session's
 unread and running state at a glance, with one-click jumping and a completion
 chime.
 
-![Icon preview](assets/icon-preview.png)
+![Session dock panel](assets/screenshot-panel.png)
+
+![Collapsed button with unread badge](assets/screenshot-button.png)
 
 ## Features
 
@@ -24,6 +26,9 @@ chime.
 - **Draggable and resize-aware** — drag the button anywhere; the position is
   stored as a fraction of the window, so it keeps its relative spot when the
   window is resized. The panel flips up or sideways near a screen edge.
+- **Dismiss a row** — the ✕ that appears on hover hides that row; it comes back
+  by itself once the session produces something newer. Dismissing a parent also
+  hides its currently visible subagent rows.
 - **Collapsible** — expands by default; click the button to collapse it back to
   a single round button.
 
@@ -37,18 +42,20 @@ chime.
 - 运行中显示绿色脉冲点，未查看结果显示琥珀点，按钮红色角标显示未读数
 - 子任务折叠在主任务下，不平铺
 - 点击会话直接跳转，面板不自动收起
+- 鼠标悬停行尾出现 **×**：忽略该记录，等这个会话有新记录时自动重新出现
+  （忽略主任务会同时忽略它当前显示的子任务）
 - 结束提示音使用 Web Audio 合成，无需音频文件，可静音
 
 ## Install
 
 ```bash
-dsh plugin --profile web add github:cuijiajun/dsh-session-topNew
+dsh plugin --profile web add github:cuijiajun/dsh-session-top-new
 ```
 
 Or from npm (prebuilt, skips the build-approval step):
 
 ```bash
-dsh plugin --profile web add dsh-session-topnew
+dsh plugin --profile web add dsh-session-top-new
 ```
 
 Then **restart the Web GUI** — the client-modules scan caches package verdicts
@@ -89,7 +96,7 @@ the interfaces the official UI itself uses, but they are not a frozen public
 API, so a Harness upgrade may rename or restructure them. When that happens the
 dock can lose its click-to-jump or status markers until the plugin is updated —
 if a control stops responding, check the browser console for a
-`[dsh-session-topnew]` warning, which is emitted instead of failing silently.
+`[dsh-session-top-new]` warning, which is emitted instead of failing silently.
 
 Tested against DSH builds current as of October 2026.
 
