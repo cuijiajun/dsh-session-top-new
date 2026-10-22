@@ -52,11 +52,8 @@ chime.
 dsh plugin --profile web add github:cuijiajun/dsh-session-top-new
 ```
 
-Or from npm (prebuilt, skips the build-approval step):
-
-```bash
-dsh plugin --profile web add dsh-session-top-new
-```
+Install from source builds the package once, so the first install asks for the
+usual build approval.
 
 Then **restart the Web GUI** — the client-modules scan caches package verdicts
 per boot, so a newly installed plugin only appears after a restart.

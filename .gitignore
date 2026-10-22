@@ -2,3 +2,5 @@ node_modules/
 *.log
 .DS_Store
 Thumbs.db
+# npm auth lives here once you run `npm login` — never commit it
+.npmrc
