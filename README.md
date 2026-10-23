@@ -37,8 +37,15 @@ lost in a long list again.
 - **Dismiss a row** — the ✕ that appears on hover hides that row; it comes back
   by itself once the session produces something newer. Dismissing a parent also
   hides its currently visible subagent rows.
+- **Inverts the page theme** — a light page gets dark chrome and a dark page gets
+  light chrome, so the panel never blends into whatever is behind it. It follows
+  DSH's own theme switch, so there is nothing to configure.
 - **Collapsible** — expands by default; click the button to collapse it back to
   a single round button.
+
+The dock in both themes — left is a light page, right is a dark one:
+
+![Theme inversion preview](assets/theme-preview.png)
 
 ## 中文说明
 
@@ -51,6 +58,8 @@ lost in a long list again.
 - 点击会话直接跳转，面板不自动收起
 - 鼠标悬停行尾出现 **×**：忽略该记录，等这个会话有新记录时自动重新出现
   （忽略主任务会同时忽略它当前显示的子任务）
+- 配色**反色于页面主题**：浅色主题下用深色外壳、深色主题下用浅色外壳，跟随
+  DSH 的主题开关自动切换，无需设置，任何时候都清晰可辨
 - 结束提示音使用 Web Audio 合成，无需音频文件，可静音
 
 ## Install
