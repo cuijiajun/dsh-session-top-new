@@ -27,6 +27,10 @@ lost in a long list again.
   today only). N is editable in the panel header, 1–365.
 - **Click to jump** — clicking a session switches the main view straight to it.
   The panel stays open.
+- **Deliverables of the active session** — the lower section lists the files
+  the active session produced (whatever it declared through `present`), one row
+  per file with its extension. Click a row to open it in the workspace's
+  document pane.
 - **Parent / child grouping** — subagent sessions nest under their parent and
   stay collapsed until you expand them, instead of flattening into one list.
 - **Completion chime** — a synthesized two-tone chime (Web Audio, no asset
